@@ -36,6 +36,8 @@
 .nav-list li a{
     text-decoration: none;
     color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav-list li a:hover{
@@ -112,6 +114,7 @@
     background: none;
     color: whitesmoke;
     cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .btn-sm{
@@ -119,14 +122,19 @@
     vertical-align: middle;
 }
 
+.btn-dark{
+    color: black;
+    border: 3px solid gray;
+    font-size: 16px;
+}
 .section{
-    height: 500px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     max-width: 80%;
     margin: auto;
-    font-family: 'Ubuntu', sans-serif;;
+    font-family: 'Ubuntu', sans-serif;
      
 }
 
@@ -138,6 +146,9 @@
     padding: 0px 65px;
 }
 
+.secttiontag{
+    padding: 20px 5;
+}
 .sectionsubtag{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -159,4 +170,38 @@
     border: 2px solid black;
     border-radius: 15px;
    
+}
+
+.contact{
+    background-color: rgb(247, 242, 237);
+    height: 700px;
+}
+
+.textcenter{
+    padding-top: 10px; 
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form{
+    max-width: 1200px;
+    margin: 22px auto;
+}
+
+.form-input{
+    margin: 14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px; 
+}
+
+.footer{
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: whitesmoke; 
 }
